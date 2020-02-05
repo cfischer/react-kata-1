@@ -1,9 +1,9 @@
 import React from 'react';
 import { Header } from 'semantic-ui-react';
-import { useParams } from "react-router-dom";
+import { useParams } from 'react-router-dom';
 
 function Isbn() {
-  let { id } = useParams();
+  const { id } = useParams();
 
   return (
     <div>
